@@ -1,0 +1,39 @@
+
+ul{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+input,select{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #dfdfdf;
+    font-size: 11px;
+    color: gray;
+    font-weight: 600;
+}
+
+img{
+    max-width: 100%;
+    
+}
+
+.header-navbar{
+    width: 100%;
+    background: linear-gradient(rgba(33,45,70,0.7), rgba(33,45,70,0.7)), url(img/topluluk.jpeg);
+
+}   
+
+.takim{
+    justify-content: center;
+    
+}
+ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    
+}
+ul li a:hover{
+    color: #990033;
+}

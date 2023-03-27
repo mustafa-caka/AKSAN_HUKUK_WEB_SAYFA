@@ -1,0 +1,63 @@
+.header-navbar{
+    width: 100%;
+  
+    background: linear-gradient(rgba(33,45,70,0.7), rgba(33,45,70,0.7)), url(img/kitap.jpg);
+
+}
+ 
+p{
+    font-weight: bold;
+    
+}
+.section{
+    margin-top: 80px;
+    margin-bottom:80px;
+}
+.adres{
+    color: #990033;
+    font-size: 25px;
+}
+.hizmet{
+    border: none;
+    border-bottom: 1px solid #dfdfdf;
+}
+.basvuru{
+    color: #990033;
+}
+.form-control{
+    border: none;
+    border-bottom: 1px solid #dfdfdf;
+    border-radius: 0 ;
+    /* background-color: #020a20 ; */
+}
+.form-select{
+    border: none;
+    border-bottom: 1px solid #dfdfdf;
+    border-radius: 0 ;
+
+}
+.message{
+    border-bottom: 1px solid #dfdfdf;
+}
+.icon{
+    width: 2rem;
+    display: inline-block;
+    margin: 1rem;
+}
+.takvim{
+    width: 20px;
+    background-color: white;
+}
+.container-footer{
+    width: 100%;
+    padding: 100px;
+    font-size: small;
+    
+    background-color: #020a20;
+}
+.form-mail{
+    background-color: #020a20 
+}
+.btn-hizmet{
+    border-bottom: 1px solid gray;
+}

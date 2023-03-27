@@ -1,0 +1,113 @@
+
+ul{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+input,select{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #dfdfdf;
+    font-size: 11px;
+    color: gray;
+    font-weight: 600;
+}
+
+img{
+    max-width: 100%;
+}
+
+.header-navbar{
+    width: 100%;
+    background: linear-gradient(rgba(33,45,70,0.7), rgba(33,45,70,0.7)), url(img/topluluk.jpeg);
+
+}   
+
+.takim{
+    justify-content: center;
+    
+}
+ul li a{
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(197, 180, 180);
+    
+    
+}
+ul li a:hover{
+    color: #990033;
+}
+.gonder{
+    color: gray;
+   
+}
+button{
+    margin-left: 100px;
+    border: none;
+    border-bottom: 1px solid #c90a0a;
+    color: grey;
+    font-weight: 300;
+}
+.alfabe{
+    color: #990033;
+}
+.container-footer{
+    width: 100%;
+  
+    background-color: #020a20;
+}
+
+.left-bottom{
+    margin-top: 1rem;
+}
+.takvim{
+    width: 20px;
+    background-color: white;
+}
+.form-control{
+    background-color: #020a20;
+    font-size: 25px;
+    border-radius: 0;
+    margin: 0;
+    padding: .12px;
+}
+.form-control:hover {
+border-color: none;
+}  
+  
+   
+
+.btn{
+    border-radius: 0;
+    font-weight: bold;
+}
+.icon{
+    width: 2rem;
+    display: inline-block;
+    margin: 1rem;
+}
+.search{
+    color: #990033;
+}
+.tarih-yani{
+    color: rgb(197, 180, 180);
+    font-weight: 600;
+}
+.card{
+    border: none;
+}
+.yazar{
+    color: rgb(197, 180, 180);
+    font-weight: 600;
+}
+@media screen  and (max-width:576px){
+    .mobil-image{
+        width: 100% !important;
+    }
+    .mobil-text, h6, input{
+        font-size: 25px;
+        text-align: center;
+    }
+ 
+    
+    }
